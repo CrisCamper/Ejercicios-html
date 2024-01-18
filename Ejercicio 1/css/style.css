@@ -1,7 +1,19 @@
 *{
-    margin:0;
-    
+    padding: 0px;
+    margin: 0px;
 }
-.titulos{
-
+html{
+    background-color: azure;
+}
+body{
+    height: 800px;
+    width: 1000px;
+    background-color: burlywood;
+    margin: auto;
+}
+header{
+    height: 200px;
+    width: 1000px;
+    background-color: blueviolet;
+    margin: 0.5em auto;
 }

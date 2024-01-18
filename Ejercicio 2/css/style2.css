@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background-color: black;
+}
+body{
+    height: 900px;
+    width: 1000px;
+    margin: 10px auto;
+    background-color: blanchedalmond;
+    border: red 4px solid;
+}
+header{
+    width: 1000px;
+    width: 150px;
+    background-color: orange;
+}

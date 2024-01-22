@@ -11,7 +11,7 @@ html{
 
 body{
     width: 1000px;
-    height: 1500px;
+    height: 1450px;
     margin: 0.5em auto;
     background-color: white;
     border: 5px solid grey;
@@ -70,10 +70,37 @@ body{
     line-height: 40px;
 }
 
-.caja{
+/* Cajas */
+.caja, .caja-sombra-interior{
     width: 250px;
     height: 250px;
     background-color: grey;
     display: block;
     float: left;
+    margin: 23px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    align-items: center;
+    line-height: 235px;
+    color: white;
+    box-shadow: 2px 2px 20px #111a;
+}
+
+.caja-sombra-interior{
+    box-shadow: 2px 2px 20px #111a inset;
+}
+
+/* LATERAL DERECHO */
+#lateral{
+    color: grey;
+    font-size: 15px;
+    font-style: unset;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

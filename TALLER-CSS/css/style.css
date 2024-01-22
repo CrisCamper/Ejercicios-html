@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+html{
+    background-color: #112;
+}
+
+body{
+    width: 1000px;
+    height: 1500px;
+    margin: 0.5em auto;
+    background-color: white;
+    border: 5px solid grey;
+}
+
+/* Cabecera */
+#header{
+    width: 1000px;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    display: block;
+}
+
+/* Menu */
+#menu{
+    margin: 0;
+    width: 1000px;
+    height: 50px;
+    display: block;
+    background: white;
+}
+
+#menu ul li{
+    display: block;
+    float: left;
+    padding: 15px;
+    border: 2px solid grey;
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+}
+
+#menu ul li a{
+    color: grey;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+#menu ul li:nth-child(1){
+    border-left: none;
+}
+
+#menu ul li:nth-child(4){
+    border-right: 3px solid grey;
+}
+
+/* Section left */
+#principal{
+    width: 600px;
+    height: 1300px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+.caja{
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    display: block;
+    float: left;
+}

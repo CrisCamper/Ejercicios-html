@@ -45,6 +45,7 @@ body {
     border-bottom: none;
     border-top: none;
     text-align: center;
+    transition: 1s;
 }
 
 #menu ul li a {

@@ -1,15 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
-html{
+html {
     background-color: #112;
 }
 
-body{
+body {
     width: 1000px;
     height: 1400px;
     margin: 0.5em auto;
@@ -18,7 +18,7 @@ body{
 }
 
 /* Cabecera */
-#header{
+#header {
     width: 1000px;
     height: 100px;
     background-color: grey;
@@ -29,7 +29,7 @@ body{
 }
 
 /* Menu */
-#menu{
+#menu {
     margin: 0;
     width: 1000px;
     height: 50px;
@@ -37,7 +37,7 @@ body{
     background: white;
 }
 
-#menu ul li{
+#menu ul li {
     display: block;
     float: left;
     padding: 15px;
@@ -47,22 +47,22 @@ body{
     text-align: center;
 }
 
-#menu ul li a{
+#menu ul li a {
     color: grey;
     font-size: 20px;
     font-weight: 100px;
 }
 
-#menu ul li:nth-child(1){
+#menu ul li:nth-child(1) {
     border-left: none;
 }
 
-#menu ul li:nth-child(4){
+#menu ul li:nth-child(4) {
     border-right: 3px solid grey;
 }
 
 /* Section left */
-#principal{
+#principal {
     width: 600px;
     height: 1200px;
     float: left;
@@ -71,10 +71,11 @@ body{
 }
 
 /* Cajas */
-.caja, .caja-sombra-interior{
+.caja,
+.caja-sombra-interior {
     width: 250px;
     height: 250px;
-    background-color: grey;
+    background: grey;
     display: block;
     float: left;
     margin: 23px;
@@ -84,21 +85,35 @@ body{
     align-items: center;
     line-height: 235px;
     color: white;
-    box-shadow: 2px 2px 20px #111a;
+    box-shadow: 3px 3px 20px #111a;
+    transition: 3s;
 }
 
-.caja-sombra-interior{
+.caja:hover {
+    background: linear-gradient(0deg, grey, lightgrey);
+}
+
+.caja:active {
+    box-shadow: 2px 2px 20px #111a inset;
+}
+
+.caja-sombra-interior {
     box-shadow: 2px 2px 20px #111a inset;
 }
 
 /* LATERAL DERECHO */
-#lateral{
+#lateral {
     color: grey;
     font-size: 13.4px;
     font-style: initial;
 }
 
-footer{
+.texto-lateral h2,
+p {
+    text-align: center;
+}
+
+footer {
     position: absolute;
     display: flex;
     justify-content: center;

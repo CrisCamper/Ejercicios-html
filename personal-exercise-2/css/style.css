@@ -1,0 +1,136 @@
+/* General Styles  */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    z-index: 0;
+}
+
+html{
+    background-color: #112;
+}
+
+body{
+    width: 100%;
+    height: max-content;
+}
+
+section{
+    padding: 100px 10%;
+}
+/* HEADER */
+header{
+    position: fixed; /* Cuando bajemos con scroll, el header también lo hará */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #112;
+    z-index: 100;
+}
+
+.logo a img{
+    width: 100px;
+    height: 100%;
+    padding-left:20px ;
+}
+
+#menu-icon{
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-family: 'Honk', system-ui;
+    font-size: 2rem;
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-shadow: none;
+
+    transition: text-shadow 150ms font-size 150ms;
+}
+.navbar a:hover{
+    text-shadow: 0px 0px 20px white;
+    font-size: 2.4rem;
+}
+
+/* HOME */
+#home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+
+.home-image img{
+    width: 400px;
+}
+
+.text-home{
+    align-self: center;
+    text-align: center;
+}
+.text-home span{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ff702a;
+}
+
+.text-home h2{
+    font-family: 'Honk', system-ui;
+    padding-bottom: 20px;
+    font-size: 6rem;
+    text-shadow: 0px 0px 50px rgb(195, 24, 24);
+}
+.text-home p{
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 1.6rem;
+    color: rgb(214, 209, 209);  
+}
+
+/* ABOUT */
+#about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text-about{
+    align-self: center;
+    text-align: center;
+}
+
+.text-about span{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ff702a;
+}
+
+.text-about .color-red{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: red;
+}
+
+.text-about h2{
+    font-family: 'Honk', system-ui;
+    padding-bottom: 20px;
+    font-size: 6rem;
+    text-shadow: 0px 0px 50px rgb(195, 24, 24);
+}
+
+.text-about p{
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 1.6rem;
+    color: rgb(214, 209, 209);  
+}

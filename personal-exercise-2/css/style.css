@@ -33,7 +33,7 @@ header{
 }
 
 .logo a img{
-    width: 100px;
+    width: 80px;
     height: 100%;
     padding-left:20px ;
 }
@@ -133,4 +133,54 @@ header{
     font-family: 'Protest Strike', sans-serif;
     font-size: 1.6rem;
     color: rgb(214, 209, 209);  
+}
+
+/* CHARACTERS */
+#characters{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#characters .character_image{
+    width: 15vw;
+    height: 100%;
+}
+
+.characteristics{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.characteristics .text-character{
+    align-self: center;
+}
+.characteristics .text-character h3{
+    font-family: 'Honk', system-ui;
+    font-size: 3rem;
+    padding: 10px;
+    color: #ff702a;
+    text-shadow: 0px 0px 20px rgb(214, 144, 144) ;
+}
+
+.characteristics .text-character p{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.character{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.character img{
+    width: 45vw;
+}
+
+.character span{
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 1.5rem;
+    color: #ff702a;
 }
